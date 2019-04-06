@@ -1,0 +1,21 @@
+{
+    "name": "vulcan/verbal-expressions-php",
+    "description": "PHP Regular expressions made easy.",
+    "license": "MIT",
+    "require": {
+        "php": ">=5.5.9",
+        "friendsofphp/php-cs-fixer": "^2.14"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "* >=4"
+    },
+    "suggest": {
+        "friendsofphp/php-cs": "A tool to automatically fix PHP code style"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Vulcan\\VerbalExpressions\\": "src/"
+        }
+    }
+}
